@@ -1,0 +1,342 @@
+CRITICAL - 2021-08-17 12:11:14 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 83, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 13:52:50 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:03:13 --> Undefined variable: gaji_karyawan
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Programming\\...', 112, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:04:12 --> syntax error, unexpected '{', expecting '('
+#0 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Programming\\...')
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#9 {main}
+CRITICAL - 2021-08-17 14:08:24 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:09:33 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:09:54 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:09:55 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:04 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:05 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:06 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:06 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:06 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:10:18 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:12:48 --> Undefined variable: gaji_karyawan
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Programming\\...', 116, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:18:08 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:28:32 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:32:36 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:32:46 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:34:00 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:34:17 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:34:36 --> Trying to access array offset on value of type null
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Programming\\...', 92, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:35:21 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:35:44 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:35:45 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:35:45 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:35:46 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:37:14 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:00 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:00 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:01 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:01 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:01 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:02 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:02 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 14:39:02 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 89, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 15:10:00 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 90, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 15:10:17 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 90, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 15:10:40 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 90, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 15:11:19 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 90, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 15:23:22 --> Undefined offset: 0
+#0 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Programming\\...', 90, Array)
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#6 {main}
+CRITICAL - 2021-08-17 16:05:43 --> Class 'EVTimer' not found
+#0 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\View\View.php(220): include()
+#1 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('absensi/absen_k...', Array, true)
+#3 D:\Programming\CI\sistem-penggajian-main\app\Controllers\Home.php(129): view('absensi/absen_k...', Array)
+#4 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#5 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Programming\CI\sistem-penggajian-main\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 D:\Programming\CI\sistem-penggajian-main\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('D:\\Programming\\...')
+#9 {main}
