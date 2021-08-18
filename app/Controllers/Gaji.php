@@ -122,11 +122,13 @@ class Gaji extends BaseController
       }
     }
 
+    $ttd = "<h1?>test</h1>";
     $data = [
       'title' => 'Laporan Gaji - SIPAKAR',
       'keyword_bulan' => $keyword,
       'karyawan' => $karyawan,
-      'data_laporan_gaji' => $data_laporan_gaji
+      'data_laporan_gaji' => $data_laporan_gaji,
+      'ttd' => $ttd
     ];
 
     return view('gaji/index', $data);
